@@ -1,0 +1,33 @@
+.nav{
+    --text-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+}
+.li{
+    margin: 10px;
+    list-style: none;
+    width: 20px;
+}
+.page{
+    border: none;
+    --size: 32px;
+    color: var(--text-color);
+    border-radius: 6px;
+    background: #0f0f0fba;
+    max-width: auto;
+    min-width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 6px;
+}
+.page:hover{
+    background: #1a1919;
+}
+

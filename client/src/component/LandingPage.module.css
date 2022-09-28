@@ -1,0 +1,85 @@
+
+.landing{
+    background-image: url("../img/SUPER MARIO CAPE by rfl-obc on DeviantArt.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position:center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    color: rgba(26, 25, 22, 0.974);
+    font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
+    width: 500px;
+    margin-bottom: 450px;
+}
+.btn {
+  --backgroundColor: rgba(230, 225, 189, 0.91);
+  --colorShadeA: rgba(106, 163, 137, 0.705);
+  --colorShadeB: rgba(121, 186, 156, 0.759);
+  --colorShadeC: rgba(150, 232, 195, 0.819);
+  --colorShadeD: rgb(187, 232, 211);
+  --colorShadeE: rgb(205, 255, 232);
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--colorShadeA);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.btn {
+  padding: 1em 2em;
+  border: 2px solid var(--colorShadeA);
+  border-radius: 1em;
+  background: var(--colorShadeE);
+  transform-style: preserve-3d;
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+.btn::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--colorShadeC);
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+  transform: translate3d(0, 0.75em, -1em);
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+.btn:hover {
+  background: var(--colorShadeD);
+  transform: translate(0, 0.375em);
+}
+
+.btn:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+.btn:active {
+  transform: translate(0em, 0.75em);
+}
+
+.btn:active::before {
+  transform: translate3d(0, 0, -1em);
+  
+  box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+}
+/* https://c.tenor.com/6NpRbmvwqe4AAAAC/super-mario-world-castle.gif 
+https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/BJCYJJPP7BNMNFKQR7SYMMYMCE.gif*/
+/* https://c.tenor.com/6NpRbmvwqe4AAAAC/super-mario-world-castle.gif */

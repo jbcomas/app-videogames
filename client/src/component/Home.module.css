@@ -1,0 +1,59 @@
+
+.home{
+    background-image: url('../img/Los Mejores Wallpaper de Mario Bros.png');
+    width: 100vw;
+    background-size: cover;
+    justify-content: center;
+    filter: opacity(10px);
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.698);
+    text-align: center;
+}
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+        
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    color:rgba(255, 255, 255, 0.771);
+    width: 200px;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(58, 56, 48, 0.867);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.593); 
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    padding: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: rgba(221, 221, 221, 0.653);
+    color: rgba(0, 0, 0, 0.8);
+}
